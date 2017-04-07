@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "sourceMap": false,
+        "outDir": "dist",
+        "lib": [
+            "dom",
+            "es5",
+            "scripthost",
+            "es6"
+        ]
+    },
+    "include": [
+        "src/*.ts"
+    ]
+}
